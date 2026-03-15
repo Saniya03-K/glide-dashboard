@@ -2,3 +2,4 @@ pandas
 matplotlib
 streamlit
 numpy
+altair<5 
