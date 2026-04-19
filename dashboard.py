@@ -60,7 +60,7 @@ with col1:
 
     # === NEW: Recovery / fallback advice ===
     if angle > best_angle:
-        st.error(
+        st.warning(
             f"⚠️ **Above best angle ({best_angle}°)** – you are slower than best glide speed.\n\n"
             f"**Recovery:** Gently lower the nose to reduce angle of attack to {best_angle}° if altitude permits.\n\n"
             f"**If insufficient altitude:** Accept the lower performance and select a **closer landing spot**. "
